@@ -1,4 +1,4 @@
-***WHat the hell are you???!!? Mahito!!***
+***What the hell are you???!!? Mahito!!***
 
 ***You don't need to shout, I can hear you, Itadori Yuji!***
 
