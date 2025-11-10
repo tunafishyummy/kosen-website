@@ -1,6 +1,1 @@
-***What the hell are you???!!? Mahito!!***
-
-***You don't need to shout, I can hear you, Itadori Yuji!***
-
-# Ko<code style="color : lightskyblue">KOSEN</code>!
-
+![I really am, truly am, a curse!](images/mahito-black-flash.gif)
