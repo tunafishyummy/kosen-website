@@ -4,7 +4,15 @@
     display: flex; /*the blue header is a flex box now. It changes size depending on whats inside it*/
     justify-content: left; 
     align-items: left;
+    margin: 1vh; /* its a margin. 'vh' makes it uniform for all zoom levels */
 }
-.headerimage {
-
+.navbar {
+    background-color: #57b9ff; 
+    height: 30px; /*how much vertical space is taken of course (by the blue thing)*/
+    display: flex; /*the blue header is a flex box now. It changes size depending on whats inside it*/
+    justify-content: left; 
+    align-items: left;
+    margin-top: 10px;
+    margin-right: -10px; /* so the thin blue nav bar takes up the whole horizontal space, clinging to each end of the page */
+    margin-left: -10px; /* ditto */
 }
