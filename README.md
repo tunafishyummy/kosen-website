@@ -2,7 +2,9 @@
 I really am... truly am... a <span style="color:#a64cf5;">curse</span>!
 </p>
 
+<p align="center">
 ![I really am, truly am, a curse!](images/mahito-black-flash.gif)
+</p>
 
 <p align="center">
 <svg width="350" height="90">
