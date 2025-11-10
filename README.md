@@ -1,8 +1,17 @@
-
-I really am... truly am... a <span style="color:#a64cf5; font-weight:bold;">curse</span>!
+<p align="center">
+I really am... truly am... a <span style="color:#a64cf5;">curse</span>!
+</p>
 
 ![I really am, truly am, a curse!](images/mahito-black-flash.gif)
 
-<span style="color:black; font-weight:900; text-shadow: 1px 1px 0 red, -1px 1px 0 red, 1px -1px 0 red, -1px -1px 0 red;">Ko-KOSEN!</span>
+<p align="center">
+<svg width="350" height="90">
+  <text x="10" y="60" font-size="60" font-family="Arial Black"
+        fill="black" stroke="red" stroke-width="3">
+    Ko-KOSEN!
+  </text>
+</svg>
+</p>
+
 
 
