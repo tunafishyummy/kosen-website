@@ -1,7 +1,10 @@
+.blueheader {
+    background-color: #57b9ff; 
+    height: 180px; /*how much vertical space is taken of course (by the blue thing)*/
+    display: flex; /*the blue header is a flex box now. It changes size depending on whats inside it*/
+    justify-content: left; 
+    align-items: left;
+}
 .headerimage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:50px;
-    width: 50%;
+
 }
