@@ -3,7 +3,7 @@ I really am... truly am... a <span style="color:#a64cf5;">curse</span>!
 </p>
 
 <img align="center">
-![I really am, truly am, a curse!](images/mahito-black-flash.gif)
+[I really am, truly am, a curse!](images/mahito-black-flash.gif)
 </img>
 
 <p align="center">
