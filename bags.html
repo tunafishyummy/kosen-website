@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">    
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<body>
+    <header class="blueheader"> 
+        <img class="headerimage" src="images/kosen1-downscale-cropped-1.png" alt="kosen">
+        <a href="cart-page.html" class="carticonlink">
+        <img src="images/shoppingcart.png" alt="Shopping Cart" class="cart-image"> </a>
+        <input class="searchbar" type="text" placeholder="Search... (shop page btw)">
+        <button type="submit">
+            <i class="material-icons">search</i> <!-- takes the search icon from google material icons -->
+        </button>
+        <!-- any other parts of the header must be placed inside this -->
+    </header>
+    <header class="navbar"> 
+        <div class = "navbarbuttons">
+            <a href="index.html"> HOME </a>
+            <a href="shop.html"> SHOP </a>
+            <a href="about_us.html"> ABOUT US </a>
+            <a href="contact.html"> CONTACT </a>
+        </div>
+        <!-- this will be a nav bar like what the MUJI site has -->
+    </header>
+
+    <main class="shop">
+        <div class="shopping">
+        <select id="sort">
+            <options>Sort by</options>
+            <option value="default">Sort by</option>
+            <option value="low-high">Price (Low to high)</option>
+            <option value="high-low">Price (High to low)</option>
+        </select>
+        </div>
+
+        <div class="product-space">
+            <div class="product-box">
+                <img src="images/catalogue/bags/bag1.png" alt="bag1">
+                <h3>Plant-Derived Material Backpack</h3>
+                <p class="price">₱1250.00</p>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+
+        <div class="product-space">
+            <div class="product-box">
+                <img src="images/catalogue/bags/bag2.png" alt="bag2">
+                <h3>Water Repellent Shoulder Bag With Back Pocket</h3>
+                <p class="price">₱1,250.00</p>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
