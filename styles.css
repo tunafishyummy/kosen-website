@@ -114,9 +114,11 @@
 
 .item img {
     width: 100%;
-    height: 100%;
-    filter: brightness(65%);
-  }
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 
 
 .label {
@@ -219,12 +221,12 @@ select {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1400px;
+    max-width: 1290px;
 }
 .innerborderbox {
     background-color: white;
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 
 
@@ -241,7 +243,7 @@ select {
     background-color: #57B9FF;
     color: white;
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 0px;
     display: inline-block;
 }
 
@@ -252,7 +254,6 @@ select {
     font-size: 2.5em;
     font-family: 'karuextrabold';
 }
-
 
 .missiontextstyle {
     font-size: 1.1em;
@@ -275,7 +276,7 @@ select {
     width: 100%;
     height: 250px;
     object-fit: cover;
-    border-radius: 60px;
+    border-radius: 0px;
 }
 /*Contact Form Styles*/
 
