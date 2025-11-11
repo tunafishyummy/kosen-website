@@ -15,7 +15,7 @@
 
 /*Header*/
 
-    .blueheader {
+.blueheader {
     background-color: #57b9ff; 
     height: 180px; /*how much vertical space is taken of course (by the blue thing)*/
     display: flex; /*the blue header is a flex box now. It changes size depending on whats inside it*/
@@ -24,16 +24,31 @@
     margin: 1vh; /* its a margin. 'vh' makes it uniform for all zoom levels */
     position: relative; 
 }
-    .searchbar {
+.searchbar {
     float: right;
     padding: 6px;
     border: none;
     align-items:right;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     margin-left: 100px;
-    font-size: 17px;;
+    font-size: 14px;;
     width: 70vh;
+}
+.blueheader button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background: #004c9f;
+    width:50px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.blueheader i { /*this is the search icon in the searchbar*/
+    margin-top:2px;
 }
 
 /*Navbar Design and Position*/
