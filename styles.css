@@ -1,6 +1,6 @@
     @font-face {
         font-family: avenirnext;
-        src: url("fonts/avenir-next-similar/metropolis/Metropolis-Regular.otf") format("opentype");
+        src: url("fonts/avenir-next-similar/metropolis/Metropolis-Bold.otf") format("opentype");
     } /* this essentially defines a new font family using custom fonts instead of the default options.*/  
 .blueheader {
     background-color: #57b9ff; 
