@@ -114,9 +114,11 @@
 
 .item img {
     width: 100%;
-    height: 100%;
-    filter: brightness(65%);
-  }
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 
 
 .label {
