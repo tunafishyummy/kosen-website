@@ -38,6 +38,7 @@
     font-family: 'karuextrabold'; 
     font-size: 18px;
     color: white; /* white (crazy) */
+    letter-spacing:1px
 }
 
 .navbarbuttons a:hover,
