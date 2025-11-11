@@ -1,11 +1,15 @@
     @font-face {
-        font-family: avenirnext;
+        font-family: metrobold;
         src: url("fonts/avenir-next-similar/metropolis/Metropolis-Bold.otf") format("opentype");
     } /* this essentially defines a new font family using custom fonts instead of the default options.*/  
     @font-face {
         font-family: 'CenturyGothicPaneuropeanBlack';
-        src: url(font/CenturyGothicPaneuropeanBlack.ttf) format("opentype");
+        src: url(fonts/CenturyGothicPaneuropeanBlack.ttf) format("opentype");
     } /* another custom font family */
+    @font-face {
+        font-family: karuextrabold;
+        src: url("fonts/avenir-next-similar/karu-font-family/Karu Font Family/karu-extrabold.ttf") format("opentype");
+    }
 .blueheader {
     background-color: #57b9ff; 
     height: 180px; /*how much vertical space is taken of course (by the blue thing)*/
@@ -30,8 +34,8 @@
     display: flex;
     align-items: center;
     gap: 30px; /* space buttons apart */
-    margin-top: 1px; /* for some reason its not perfectly centered this should fix it */
-    font-family: 'CenturyGothicPaneuropeanBlack'; 
+    margin-top: 5px; /* for some reason its not perfectly centered this should fix it */
+    font-family: 'karuextrabold'; 
     font-size: 18px;
     color: white; /* white (crazy) */
 }
