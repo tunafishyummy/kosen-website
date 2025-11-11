@@ -9,6 +9,7 @@
     justify-content: left; 
     align-items: left;
     margin: 1vh; /* its a margin. 'vh' makes it uniform for all zoom levels */
+    position: relative;
 }
 .navbar {
     background-color: #57b9ff; 
@@ -35,4 +36,15 @@
 .navbarbuttons a:link {
     color: white; /* navbar buttons are always white now. It's purple without this*/
     text-decoration:none; /* no underline on the link */
+}
+.carticonlink {
+    position: absolute;
+    top: 30px; 
+    right: 30px;
+    text-decoration: none;
+    z-index: 100;
+}
+.cart-image {
+    width: 40px; 
+    height: auto;
 }
