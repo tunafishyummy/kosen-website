@@ -13,7 +13,7 @@
         src: url("fonts/avenir-next-similar/karu-font-family/Karu Font Family/karu-extrabold.ttf") format("opentype");
     }
 
-/*Header Design and Position*/
+/*Header*/
 
     .blueheader {
     background-color: #57b9ff; 
@@ -23,6 +23,17 @@
     align-items: left;
     margin: 1vh; /* its a margin. 'vh' makes it uniform for all zoom levels */
     position: relative; 
+}
+    .searchbar {
+    float: right;
+    padding: 6px;
+    border: none;
+    align-items:right;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+    font-size: 17px;;
+    width: 70vh;
 }
 
 /*Navbar Design and Position*/
