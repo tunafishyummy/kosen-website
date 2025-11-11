@@ -150,14 +150,14 @@
 .shop {
     width: 90%;
     max-width: 1200px;
-    margin: 2rem auto;
+    margin: 12px auto;
 }
 
 .shopping {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 12px;
 }
 
 .sort {
@@ -195,7 +195,7 @@ select {
     background-color: #57b9ff; 
     color: white;
     border: none;
-    padding: 0.7rem;
+    padding: 12px;
     width: 100%;
     cursor: pointer;
     font-weight: 600;
