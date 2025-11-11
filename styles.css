@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     gap: 30px; /* space buttons apart */
-    margin-top: 5px; /* for some reason its not perfectly centered this should fix it */
+    margin-top: 4px; /* for some reason its not perfectly centered this should fix it */
     font-family: 'karuextrabold'; 
     font-size: 18px;
     color: white; /* white (crazy) */
