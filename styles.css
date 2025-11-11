@@ -201,6 +201,17 @@ footer {
     font-size: 15px;
 }
 
+.old-price {
+  text-decoration: line-through;
+  color: #777;
+  margin-right: 10px;
+}
+
+.new-price {
+  color: #d10000;
+  font-weight: bold;
+}
+
 select {
     width: 100%;
     padding: 10px;
