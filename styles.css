@@ -33,9 +33,7 @@
     display: flex; /*the blue header is a flex box now. It changes size depending on whats inside it*/
     justify-content: center; 
     align-items: center;
-    margin-top: 10px;
-    margin-right: -10px; /* so the thin blue nav bar takes up the whole horizontal space, clinging to each end of the page */
-    margin-left: -10px; /* ditto */
+    margin: 1vh;
     
 }
 .navbarbuttons {
