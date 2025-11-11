@@ -23,5 +23,14 @@
 .navbarbuttons {
     padding-right:50vh;
     padding-left:50vh;
-    font-family:avenirnext;
+    font-family:avenirnext; /* using the custom font family */
+    color: white; /* white (crazy) */
+}
+
+.navbarbuttons a:hover,
+.navbarbuttons a:active,
+.navbarbuttons a:visited,
+.navbarbuttons a:link {
+    color: white; /* navbar buttons are always white now. It's purple without this*/
+    text-decoration:none; /* no underline on the link */
 }
