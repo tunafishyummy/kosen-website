@@ -2,6 +2,10 @@
         font-family: avenirnext;
         src: url("fonts/avenir-next-similar/metropolis/Metropolis-Regular.otf") format("opentype");
     } /* this essentially defines a new font family using custom fonts instead of the default options.*/  
+    @font-face {
+        font-family: 'CenturyGothicPaneuropeanBlack';
+        src: url(font/CenturyGothicPaneuropeanBlack.ttf) format("opentype");
+    } /* another custom font family */
 .blueheader {
     background-color: #57b9ff; 
     height: 180px; /*how much vertical space is taken of course (by the blue thing)*/
@@ -9,7 +13,7 @@
     justify-content: left; 
     align-items: left;
     margin: 1vh; /* its a margin. 'vh' makes it uniform for all zoom levels */
-    position: relative;
+    position: relative; 
 }
 .navbar {
     background-color: #57b9ff; 
@@ -20,13 +24,15 @@
     margin-top: 10px;
     margin-right: -10px; /* so the thin blue nav bar takes up the whole horizontal space, clinging to each end of the page */
     margin-left: -10px; /* ditto */
+    
 }
 .navbarbuttons {
     display: flex;
     align-items: center;
     gap: 30px; /* space buttons apart */
     margin-top: 1px; /* for some reason its not perfectly centered this should fix it */
-    font-family:avenirnext; /* using the custom font family */
+    font-family: 'CenturyGothicPaneuropeanBlack'; 
+    font-size: 18px;
     color: white; /* white (crazy) */
 }
 
@@ -48,3 +54,4 @@
     width: 40px; 
     height: auto;
 }
+
