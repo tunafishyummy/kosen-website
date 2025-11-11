@@ -95,6 +95,15 @@
     height: auto;
 }
 
+/* Footer Styles */
+footer {
+  text-align: center;
+  background-color: #57b9ff; 
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
+
 /* Shop Page Grid Styles */
 
 .grid {
