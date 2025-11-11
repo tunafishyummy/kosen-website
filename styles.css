@@ -12,7 +12,7 @@
 }
 .navbar {
     background-color: #57b9ff; 
-    height: 30px; /*how much vertical space is taken of course (by the slim blue navbar)*/
+    height: 20px; /*how much vertical space is taken of course (by the slim blue navbar)*/
     display: flex; /*the blue header is a flex box now. It changes size depending on whats inside it*/
     justify-content: center; 
     align-items: center;
@@ -23,6 +23,7 @@
 .navbarbuttons {
     padding-right:50vh;
     padding-left:50vh;
+    margin-top: 1px; /* for some reason its not perfectly centered this should fix it */
     font-family:avenirnext; /* using the custom font family */
     color: white; /* white (crazy) */
 }
