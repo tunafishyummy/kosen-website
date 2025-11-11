@@ -199,3 +199,72 @@ select {
     cursor: pointer;
     font-weight: 600;
 }
+
+/*Borders for Body Sections*/
+
+
+.outerborderbox {
+    background-color: #57b9ff ;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+.innerborderbox {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+.kosenpicturelocation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+
+/* Content For About Us and Meet the Team Section*/
+.blue-bg-round {
+    background-color: #57B9FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+
+.about-title-wrapper h1,
+.about-title-wrapper h2 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'karuextrabold';
+}
+
+
+.missiontextstyle {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #57B9FF;
+    margin-bottom: 25px;
+    font-family: 'karuextrabold';
+}
+
+
+.teamsectionmargin {
+    margin-top: 40px;
+}
+.teampicsgrid {
+    display: flex;
+    gap: 120px;
+    margin-top: 20px;
+}
+.teammemberimg {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 60px;
+}
+
