@@ -23,12 +23,62 @@
         <!-- this will be a nav bar like what the MUJI site has -->
     </header>
 
-    <main>
-    </main>
+<main>
+  <section class="carousel">
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <div class="carousel-item">
+          <img src="images/christmas sale.png" alt="Sale">
+        </div>
+        <div class="carousel-item">
+          <img src="images/catalogue/outerwear/outerwear1.png" alt="Outerwear">
+        </div>
+        <div class="carousel-item">
+          <img src="images/catalogue/outerwear/outerwear2.png" alt="Outerwear">
+        </div>
+        <div class="carousel-item">
+          <img src="images/catalogue/sweaters/sweater1.png" alt="Sweater">
+        </div>
+        <div class="carousel-item">
+          <img src="images/catalogue/sweaters/sweater2.png" alt="Sweater">
+        </div>
+      </div>
+      <button class="carousel-btn prev">&#10094;</button>
+      <button class="carousel-btn next">&#10095;</button>
+    </div>
+  </section>
+</main>
     
   <footer>
     <p>© 2025 Kosen | All Rights Reserved</p>
   </footer>
+
+<script>
+const track = document.querySelector('.carousel-track');
+const slides = Array.from(track.children);
+const nextButton = document.querySelector('.next');
+const prevButton = document.querySelector('.prev');
+let currentSlide = 0;
+
+function updateCarousel() {
+  track.style.transform = `translateX(-${currentSlide * 100}%)`;
+}
+
+nextButton.addEventListener('click', () => {
+  currentSlide = (currentSlide + 1) % slides.length;
+  updateCarousel();
+});
+
+prevButton.addEventListener('click', () => {
+  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+  updateCarousel();
+});
+
+setInterval(() => {
+  currentSlide = (currentSlide + 1) % slides.length;
+  updateCarousel();
+}, 5000);
+</script>
 
 </body>
 </html>
