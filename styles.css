@@ -24,17 +24,7 @@
     margin: 1vh; /* its a margin. 'vh' makes it uniform for all zoom levels */
     position: relative; 
 }
-.searchbar {
-    float: right;
-    padding: 6px;
-    border: none;
-    align-items:right;
-    margin-top: 70px;
-    margin-bottom: 70px;
-    margin-left: 100px;
-    font-size: 14px;;
-    width: 70vh;
-}
+
 .blueheader button {
     float: right;
     padding: 6px 10px;
@@ -46,9 +36,6 @@
     border: none;
     cursor: pointer;
     color: white;
-}
-.blueheader i { /*this is the search icon in the searchbar*/
-    margin-top:2px;
 }
 
 /*Navbar Design and Position*/
