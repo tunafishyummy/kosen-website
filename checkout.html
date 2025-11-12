@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout - Kosen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="blueheader"> 
+    <img class="headerimage" src="images/kosen1-downscale-cropped-1.png" alt="kosen">
+  </header>
+
+  <header class="navbar"> 
+    <div class="navbarbuttons">
+      <a href="index.html">HOME</a>
+      <a href="shop.html">SHOP</a>
+      <a href="about_us.html">ABOUT US</a>
+      <a href="contact.html">CONTACT</a>
+    </div>
+  </header>
+
+  <main class="checkout-page">
+    <h1>Checkout</h1>
+
+    <!-- Billing Form -->
+    <section class="checkout-section">
+      <h2>Customer Information</h2>
+      <form id="checkout-form">
+        <label>Full Name</label>
+        <input type="text" id="name" required>
+
+        <label>Email</label>
+        <input type="email" id="email" required>
+
+        <label>Address</label>
+        <textarea id="address" rows="3" required></textarea>
+        <button type="button" id="get-location" class="add-cart">📍 Use My Current Location</button>
+        <p id="location-status" style="font-size:14px;color:gray;margin-top:4px;"></p>
+
+
+        <label>Payment Method</label>
+        <select id="payment" required>
+          <option value="cod">Cash on Delivery</option>
+          <option value="gcash">GCash</option>
+          <option value="card">Credit/Debit Card</option>
+        </select>
+      </form>
+    </section>
+
+    <!-- Order Summary -->
+    <section class="checkout-section">
+      <h2>Order Summary</h2>
+      <div id="checkout-summary"></div>
+      <button id="place-order" class="add-cart">Place Order</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Kosen | All Rights Reserved</p>
+  </footer>
+
+  <script src="checkout.js"></script>
+</body>
+</html>

@@ -217,8 +217,9 @@
       }
       const checkoutBtn = e.target.closest && e.target.closest('#checkout');
       if (checkoutBtn) {
-        alert('🙂');
+        window.location.href = 'checkout.html';
       }
+
     });
   }
 

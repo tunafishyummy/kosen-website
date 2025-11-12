@@ -489,3 +489,43 @@ select {
   background-color: #f9f9f9;
   padding: 10px;
 }
+
+.checkout-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f8faff;
+  border-radius: 10px;
+}
+
+.checkout-section {
+  margin-bottom: 30px;
+}
+
+.checkout-section h2 {
+  color: #57b9ff;
+  font-family: 'karuextrabold';
+}
+
+.checkout-section label {
+  display: block;
+  margin-top: 10px;
+  color: #004c9f;
+}
+
+.checkout-section input,
+.checkout-section textarea,
+.checkout-section select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#order-summary {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
