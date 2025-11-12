@@ -168,8 +168,8 @@
     if (!summaryEl) return;
     summaryEl.innerHTML = `
       <p style="font-weight:600">Total: ₱${formatNumber(total)}</p>
-      <button id="clear-cart">Clear Cart</button>
-      <button id="checkout" style="margin-left:12px;">Checkout</button>
+      <button id="clear-cart" class="shoppagebuttons">Clear Cart</button>
+      <button id="checkout" class="shoppagebuttons" style="margin-left:12px;">Checkout</button>
     `;
   }
 

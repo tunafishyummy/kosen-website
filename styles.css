@@ -137,6 +137,13 @@ footer {
     font-family: "karuextrabold";
 }
 
+.shoppagebuttons {
+    border: none;
+    background-color: #57b9ff;
+    font-family:"karuextrabold";
+    color: white;
+}
+
 .shopping {
     display: flex;
     justify-content: space-between;
