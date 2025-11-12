@@ -146,7 +146,7 @@
             <button data-action="dec">−</button>
             <span data-role="qty" style="margin:0 8px;">${item.qty}</span>
             <button data-action="inc">+</button>
-            <button data-action="remove" style="margin-left:12px;color:#c00;">Remove</button>
+            <button data-action="remove" style="margin-left:12px;color:#ff3b30;" class="cartpagebuttons">Remove</button>
           </div>
         </td>
         <td style="padding:8px;border-bottom:1px solid #ddd;text-align:right;vertical-align:top;">
