@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">    
+<html lang="en">
 <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <body>
     <header class="blueheader"> 
         <img class="headerimage" src="images/kosen1-downscale-cropped-1.png" alt="kosen">
         <a href="cart-page.html" class="carticonlink">
-        <img src="images/shoppingcart.png" alt="Shopping Cart" class="cart-image"></a>
-
-        <!-- any other parts of the header must be placed inside this -->
+          <img src="images/shoppingcart.png" alt="Shopping Cart" class="cart-image">
+        </a>
     </header>
     <header class="navbar"> 
         <div class = "navbarbuttons">
@@ -17,11 +16,21 @@
             <a href="about_us.html"> ABOUT US </a>
             <a href="contact.html"> CONTACT </a>
         </div>
-        <!-- this will be a nav bar like what the MUJI site has -->
     </header>
 
-        <main></main>
+    <main class="shop" style="padding:24px;">
+      <h1>Your Cart</h1>
+
+      <div id="cart-container" aria-live="polite"></div>
+
+      <div id="cart-summary" style="margin-top:18px;"></div>
     </main>
 
+  <footer>
+    <p>© 2025 Kosen | All Rights Reserved</p>
+  </footer>
+
+  <!-- Include the cart script (add this to all product pages too) -->
+  <script src="cart.js"></script>
 </body>
 </html>
