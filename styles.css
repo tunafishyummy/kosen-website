@@ -137,11 +137,12 @@ footer {
     font-family: "karuextrabold";
 }
 
-.shoppagebuttons {
+.cartpagebuttons {
     border: none;
     background-color: #57b9ff;
     font-family:"karuextrabold";
     color: white;
+    cursor: pointer;
 }
 
 .shopping {
