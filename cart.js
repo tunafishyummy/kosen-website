@@ -217,7 +217,7 @@
       }
       const checkoutBtn = e.target.closest && e.target.closest('#checkout');
       if (checkoutBtn) {
-        alert('Checkout not implemented in this demo.');
+        alert('🙂');
       }
     });
   }
