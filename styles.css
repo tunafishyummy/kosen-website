@@ -115,8 +115,6 @@ footer {
     border-radius: 10px;
 }
 
-
-
 .label {
     position: absolute;
     top: 50%;
@@ -129,19 +127,6 @@ footer {
     letter-spacing: 0.5px;
     font-family: 'karuextrabold'; 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Shop Page Styles */
 
@@ -208,7 +193,6 @@ select {
     background: white;
 }
 
-
 .add-cart {
     background-color: #57b9ff; 
     color: white;
@@ -220,8 +204,6 @@ select {
 }
 
 /*Borders for Body Sections*/
-
-
 .outerborderbox {
     background-color: #57b9ff ;
     padding: 20px;
@@ -230,12 +212,12 @@ select {
     margin-right: auto;
     max-width: 1290px;
 }
+
 .innerborderbox {
     background-color: white;
     padding: 30px;
     border-radius: 0px;
 }
-
 
 .kosenpicturelocation {   /*also makes the box larger depending on content*/
     display: flex;
@@ -243,7 +225,6 @@ select {
     align-items: flex-start;
     margin-bottom: 20px;
 }
-
 
 /* Content For About Us and Meet the Team Section*/
 .blue-bg-round {
@@ -253,7 +234,6 @@ select {
     border-radius: 0px;
     display: inline-block;
 }
-
 
 .about-title-wrapper h1,
 .about-title-wrapper h2 {
@@ -270,7 +250,6 @@ select {
     font-family: 'karuextrabold';
 }
 
-
 .teamsectionmargin {
     margin-top: 40px;
 }
@@ -285,8 +264,8 @@ select {
     object-fit: cover;
     border-radius: 0px;
 }
-/*Contact Form Styles*/
 
+/*Contact Form Styles*/
 .contact-header-only {
     display: flex;
     justify-content: center; 
@@ -302,7 +281,6 @@ select {
     letter-spacing: 2px;
 }
 
-
 .form-label {
     display: block; 
     font-family: 'karuextrabold';
@@ -312,7 +290,6 @@ select {
     margin-top: 25px;
     letter-spacing: 1px;
 }
-
 
 .form-input {
     width: 100%;
@@ -325,7 +302,6 @@ select {
     font-size: 1.2em;
     box-sizing: border-box; 
 }
-
 
 .form-textarea {
     width: 100%;
@@ -362,7 +338,8 @@ select {
     background-color: #3b8ccf; 
 }
 
-/* --- Carousel Styling --- */
+/* This is Home Page */
+/* Carousel Styling */
 .carousel {
   position: relative;
   max-width: 100%;
@@ -423,7 +400,7 @@ select {
   right: 500px;
 }
 
-/* --- Shop Now Button on Sale Slide --- */
+/* Shop Now Button on Sale Slide */
 .sale-slide {
   position: relative;
 }
@@ -481,6 +458,7 @@ select {
   padding: 50px 20px;
 }
 
+/* Featured Products Grid */
 .featured-products h2 {
   font-family: 'karuextrabold';
   color: #57b9ff;
